@@ -127,7 +127,7 @@ socket.on("info", function(message) {
 
 ///////**************************  RTCPEERCONNECTION  **************************///////
 
-var pc_config = { 'iceServers': [{ 'url': 'stun:23.21.150.121' }] };
+var pc_config = { 'iceServers': [{ 'url': 'stun:stun.stunprotocol.org' }] };
 var pc_constraints = {
     'optional': [
         { 'DtlsSrtpKeyAgreement': true },
